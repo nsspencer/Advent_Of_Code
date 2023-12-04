@@ -51,7 +51,7 @@ def pattern_matcher(patterns:dict, text:str) -> List[PatternResult]:
         text (str): string to check for patterns
 
     Returns:
-        tuple: List of PatternResult objects representing the found patterns in the text.
+        list: Sorted list of PatternResult objects representing the found patterns in the text.
     """
     pattern_results = []
     
