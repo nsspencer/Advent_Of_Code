@@ -5,7 +5,7 @@ import os
 from typing import List, Dict
 
 
-INPUT_FILE = os.path.join(os.path.dirname(__file__), "input_1.txt")
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input.txt")
 
 
 class Game:

@@ -5,7 +5,7 @@ import os
 import re
 from typing import List
 
-INPUT_FILE = os.path.join(os.path.dirname(__file__), "input_1.txt")
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input.txt")
 
 # define the valid regex patterns to search for, and assign a numeric value to the pattern
 patterns = {
