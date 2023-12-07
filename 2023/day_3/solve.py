@@ -101,7 +101,6 @@ def main() -> int:
     part_numbers = parse_part_numbers(schematic)
 
     print(f"Part Number Sum: {sum(part_numbers)}")
-
     return 0
 
 
